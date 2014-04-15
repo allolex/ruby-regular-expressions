@@ -4,7 +4,7 @@
 re = /
   \A        # the beginning of a string,
   <         # followed by a '<'
-  ([^>]+)   # followed by one or more non-'>' characters,
+  [^>]+     # followed by one or more non-'>' characters
   >         # followed by a '>'
   /x
 
