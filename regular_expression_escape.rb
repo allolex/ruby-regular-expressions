@@ -17,3 +17,8 @@ end
 
 puts bbcode_bold_re_one.inspect
 puts bbcode_bold_re_two.inspect
+
+__END__
+They are the same, but one is more readable.
+/\[b\]/
+/\[b\]/

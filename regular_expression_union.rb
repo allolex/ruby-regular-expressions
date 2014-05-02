@@ -31,5 +31,17 @@ test_text.each_line do |line|
   puts "#{line}" if re === line
 end
 
-puts '','The regualar expression',re.inspect
+puts '','The regular expression',re.inspect
 puts '','As you can see, it preserves any regex flags you include.'
+
+__END__
+<head>
+</head>
+<body>
+  <p>Some text.</p>
+</body>
+
+The regular expression
+/(?i-mx:(?<head><[\/]?head>))|(?-mix:(?<body><[\/]?body>))|(?-mix:(?<paragraph><[\/]?p>))/
+
+As you can see, it preserves any regex flags you include.
