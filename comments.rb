@@ -4,9 +4,8 @@
 #
 # When using the /x flag, be careful to always use whitespace patterns to
 # indicate whitespace since Onigmo will ignore most whitespace in the pattern,
-# e.g. 'this\sway', 'this[ ]way', or 'this\ way', but not 'this way'.  This is
-# not well-documented in Ruby. See http://perldoc.perl.org/perlre.html#%2fx for
-# more detail.
+# e.g. 'this\sway', 'this[ ]way', or 'this\ way', but not 'this way'. 
+# See http://perldoc.perl.org/perlre.html#%2fx for more detail.
 
 re = /
   \A        # the beginning of a string,
